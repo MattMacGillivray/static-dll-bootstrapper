@@ -31,13 +31,13 @@ public class DLLBootstrapper {
 			int count = 0;
 			// iterate through all the dlls specified
 			for (int i=0; i < 100; i++) {
-				count ++;
 				String dll = prop.getProperty("dll." + i);
 				if (dll != null && !"".equals(dll)) {
 					try {
 						// try to load this library..
 						System.loadLibrary(dll);
 						System.out.println(dll + " DLL loaded (dll." + i + ")");
+						count ++;
 					} catch (UnsatisfiedLinkError ule) {
 						System.err.println("Failed to load '" + dll + "' DLL (dll." + i + ")");
 						ule.printStackTrace(System.err);
