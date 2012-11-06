@@ -1,4 +1,4 @@
-package foo;
+package msm;
 
 import java.io.IOException;
 import java.io.InputStream;
