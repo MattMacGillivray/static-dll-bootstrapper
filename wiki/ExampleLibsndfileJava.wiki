@@ -33,7 +33,7 @@ What do I need to get started?
 
 === Contents of dll-bootstrapper.properties ===
 {{{
-#default properties file
+# load the libsndfile DLLs
 dll.0=libsndfile-1
 dll.1=libsndfile_wrap
 }}}
