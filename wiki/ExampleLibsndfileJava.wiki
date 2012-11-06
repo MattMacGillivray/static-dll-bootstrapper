@@ -21,6 +21,7 @@ What do I need to get started?
  
 
 == Configuration ==
+Where do I put all these files?
  # libsndfile-1.dll -> JAVA_HOME/bin/libsndfile-1.dll
   * *WARNING*: Ensure this DLL is not found within your webapp 
  # libsndfile_wrap.dll -> JAVA_HOME/bin/libsndfile-1.dll
