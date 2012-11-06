@@ -43,7 +43,7 @@ dll.1=libsndfile_wrap
 Within your webapp, simply add the following line of code somewhere that is guaranteed to be loaded at least once, prior to your use of libsndfile.
 {{{
   // force the JVM to find and load this class (but not instantiate it)
-  Class.forName("foo.DLLBootstrapper");
+  Class.forName("msm.DLLBootstrapper");
 }}}
 
 That's it!
@@ -54,7 +54,7 @@ An easy way to verify that this works is to instantiate a libsndfile class right
 
 {{{
 try {
-   Class.forName("foo.DLLBootstrapper");
+   Class.forName("msm.DLLBootstrapper");
 } catch (Exception e) {
    logger.error("   DLLBootstrapper not found, " + e.getMessage(), e);
 }
