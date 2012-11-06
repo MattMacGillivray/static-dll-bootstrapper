@@ -14,7 +14,6 @@ What do I need to get started?
   * Included in [http://code.google.com/p/libsndfile-java/ libsndfile java wrapper]
  # libsndfile-wrapper-0.1.jar
   * Included in [http://code.google.com/p/libsndfile-java/ libsndfile java wrapper project]
-  * libnsdfile
  # dll-bootstrapper-0.1.jar
   * Included in [http://code.google.com/p/static-dll-bootstrapper static dll bootstrapper project]
  # Tomcat 7 (in this example)
