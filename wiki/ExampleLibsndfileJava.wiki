@@ -12,7 +12,7 @@ What do I need to get started?
   * libsndfile DLL included within a [http://www.mega-nerd.com/libsndfile/ libsndfile installer]
  # libsndfile_wrap.dll
   * Included in [http://code.google.com/p/libsndfile-java/ libsndfile java wrapper]
- # libsndfile-wrapper-0.1.jar
+ # libsndfile-wrapper-0.1.jar (might be named libsndfile-wrapper-r7.jar, if so, rename it)
   * Included in [http://code.google.com/p/libsndfile-java/ libsndfile java wrapper project]
  # dll-bootstrapper-0.2.jar
   * Included in [http://code.google.com/p/static-dll-bootstrapper static dll bootstrapper project]
@@ -24,7 +24,7 @@ What do I need to get started?
 Where do I put all these files?
  # libsndfile-1.dll -> JAVA_HOME/bin/libsndfile-1.dll
   * *WARNING*: Ensure this DLL is not found within your webapp 
- # libsndfile_wrap.dll -> JAVA_HOME/bin/libsndfile-1.dll
+ # libsndfile_wrap.dll -> JAVA_HOME/bin/libsndfile_wrap.dll
   * *WARNING*: Ensure this DLL is not found within your webapp 
  # libsndfile-wrapper-0.1.jar -> TOMCAT_HOME/lib/libsndfile-wrapper-0.1.jar
   * *WARNING*: Be sure this JAR is not included in your WEBAPP or you will get an UnsatisfiedLinkError because it will be loaded in the Webapps ClassLoader
