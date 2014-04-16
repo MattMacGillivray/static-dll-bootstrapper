@@ -28,7 +28,7 @@ Where do I put all these files?
   * *WARNING*: Ensure this DLL is not found within your webapp 
  # libsndfile-wrapper-0.1.jar -> TOMCAT_HOME/lib/libsndfile-wrapper-0.1.jar
   * *WARNING*: Be sure this JAR is not included in your WEBAPP or you will get an UnsatisfiedLinkError because it will be loaded in the Webapps ClassLoader
- # dll-bootstrapper-0.1.jar -> TOMCAT_HOME/lib/dll-bootstrapper-0.1.jar
+ # dll-bootstrapper-0.2.jar -> TOMCAT_HOME/lib/dll-bootstrapper-0.2.jar
   * *WARNING*: Ensure this JAR is not found within your webapp 
  # dll-bootstrapper.properties -> TOMCAT_HOME/lib/dll-bootstrapper.properties
 
